@@ -31,6 +31,6 @@ git branch -
 git branch [Branch name]
 
 - Switch
-git checkout
-git switch
+git checkout [Branch name]
+git switch [Branch name]
 
