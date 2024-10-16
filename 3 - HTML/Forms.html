@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<body>
+    <form action="">
+    <div>
+    <label for="user-fullname">Name:</label> 
+        <input type="text" 
+        name="user-fullname" 
+        id="user-fullname" 
+        placeholder="Juan Dela Cruz" 
+        required/>
+
+    </div>
+    <div>
+        <label for="email-id">Email:</label> 
+        <input type="email" 
+        name="user-email" 
+        id="email-id"
+        placeholder="juandelacruz@gmail.com"
+        required/> 
+    </div>
+    <div>
+        <label for="password-id">Password:</label> 
+        <input type="password"
+        name="user-password"
+        id="password-id"
+        placeholder="***********"
+        required/>
+    </div>
+    <div>
+        <label for="user-age">Age:</label> 
+        <input type="number"
+        name="user-age"
+        id="age-id"
+        placeholder="18"
+        min="18"
+        max="60"
+        required/>
+    </div>
+    <div>
+        <label for="message-id">Message:</label> 
+        <br/>
+        <textarea 
+        name="user-message" 
+        id="message-id" 
+        placeholder="What's on your mind"
+        rows="5"
+        cols="20"
+        ></textarea>
+    </div>
+    <div>
+        <select name="user-gender" id="gender-id">
+            <option value="none"selected disabled hidden>--Select your Gender--</option>
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+            <option value="O">Others</option>
+        </select>
+    </div>
+    <div>
+        <label for="birthdate-id">Birthdate</label>
+        <input type="date"
+        name="User-birthdate"
+        id="birthdate-id"
+        required/>
+    </div>
+    <div>
+        <input type="radio" 
+        name="status" 
+        id="publick-id"
+        value="publick-id">
+        <label for="Public">Public</label>
+        <input type="radio" 
+        name="status"
+        id="private-id"
+        value="private">
+        <label for="Private">Private</label>
+    </div>
+    <div>
+        <input type="checkbox"
+        name="genre"
+        id="comedy-id"
+        value="comedy">
+        <label for="comedy-id">Comedy</label>
+        
+        <input type="checkbox"
+        name="genre"
+        id="scifi-id"
+        value="scifi">
+        <label for="scifi-id">Scifi</label>
+        
+        <input type="checkbox"
+        name="genre"
+        id="horror-id"
+        value="Horror">
+        <label for="horror-id">Horror</label>
+
+        <input type="checkbox"
+        name="genre"
+        id="fiction-id"
+        value="Fiction">
+        <label for="fiction-id">Fiction</label>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>   
+    </div>
+    </form>
+</body>
+</html>
