@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Three Ways</title>
+    <style>
+
+    #Internal-Styling-Id {
+        color: blueviolet; font-size: 18px;
+    }
+    </style>
+    <link rel="stylesheet" href="three-ways.css">
+</head>
+<body>
+    <!-- Inline Styling -->
+    <!-- Declaration: Property: Value: -->
+    
+    <p style="color:blue; font-size:24px"> 
+    This paragraph is for <span style="color:red; font-size:24px">Inline-Styling.</span></p>
+
+    <!-- Internal styling -->
+
+    <p id="Internal-Styling-Id">This Paragraph style is for Internal-Styling</p>
+
+    <!-- External Stying -->
+     <p id="External-Styling-Id">This Paragraph style is for External-Styling</p>
+</body>
+</html>

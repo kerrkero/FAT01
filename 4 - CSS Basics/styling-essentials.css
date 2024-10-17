@@ -1,0 +1,101 @@
+#text-styling {
+    /* Font Fallback */
+    font-family:Arial, Helvetica, sans-serif;
+
+    /* Font Weight */
+
+    /* Keyword Values */
+    font-weight: bold;
+    font-weight: lighter;
+    font-weight: normal;
+    font-weight: bolder;
+
+    /* Numeric Values */
+    /* 100-950 Limit */
+    font-weight: 100;
+    font-weight: 200;
+    font-weight: 300;
+    font-weight: 950;
+
+    font-weight: normal;
+
+    /* Font Style */
+    font-style: italic;
+    font-style: oblique;
+    font-style: normal;
+
+    /* Font Alignment */
+    text-align: center;
+    text-align: right;
+    text-align: left;
+    text-align: justify;
+
+    /* Line Height */
+    line-height: normal;
+    line-height: 1.5;
+    line-height: 150%;
+    line-height: 36px;
+
+    /* Letter Spacing */
+    letter-spacing: normal;
+    letter-spacing: 8px;
+    letter-spacing: -4px;
+    letter-spacing: 1px;
+}
+
+#text-decoration {
+
+    /* Letter Decoration Line */
+    text-decoration-line: none;
+    text-decoration-line: line-through;
+    text-decoration-line: overline;
+    text-decoration-line: underline;
+
+    /* Letter Decoration Style */
+    text-decoration-style: solid;
+    text-decoration-style: double;
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+
+    /* Text Decoration Color */
+    text-decoration-color: maroon;
+
+    /* Text Decoration Thickness */
+    text-decoration-thickness: auto;
+    text-decoration-thickness: 5px;
+    text-decoration-thickness: 50%;
+
+    text-decoration: 3px underline solid pink;
+}
+
+#colors {
+    /* Coolors.com - Color Pallete Design */
+    /* Color Names */
+    color: red;
+    background-color: gray;
+
+    /* RGB - Red Green Blue */
+    /* RGBA - Alpha Opaque/Transparent */
+    color: rgb(red, green, blue);
+    background-color: rgb(199, 9, 237, 0.5) ;
+
+    /* Hexadecimal */
+    /* #RRGGBB 0-9, A-F */
+    color: #001d3d;
+    background-color: #ffc300;
+}
+
+#absolute-unit-px {
+    /* Default Font-Size 16px */
+    font-size: 24px;
+}
+#relative-unit-em {
+    /* 2EM(20) - Multiplier to parent font size */
+    font-size: 2em;
+    color: #ffd60a;
+    background-color: #001d3d;
+}
+#relative-unit-rem {
+    /* REM - Multipier to root element font size*/
+    font-size: 3rem;
+}

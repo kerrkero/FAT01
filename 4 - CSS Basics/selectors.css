@@ -1,0 +1,41 @@
+/* Element Selector */
+span {
+    background-color: green;
+    color: aliceblue;
+}
+
+/* Class Selector */
+.intro-paragraphs {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* ID Selecter */
+#main-heading {
+    line-height: 18px;
+    text-decoration: underline;
+}
+
+/* Universal Selector */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* Grouping Selector */
+h1, h2, .about-content {
+    background-color: blueviolet;
+    color: bisque;
+}
+
+/* Descendant Selector */
+.article-container p {
+    font-style: italic;
+    color: tomato;
+}
+
+/* Pseudo Selector */
+a:hover {
+    font-size: 3rem;
+    color: pink;
+}
