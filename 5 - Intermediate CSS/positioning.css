@@ -1,0 +1,31 @@
+#relative {
+    background-color: aquamarine;
+    position: relative;
+    top: 0px;
+    /* Relative to it's original position */
+    left: 10px;
+    
+}
+
+#absolute {
+    background-color: blue;
+    color: pink;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    /* Relative to parent container that have a position that is not relative */
+    /* Position-Absolute */
+}
+
+#fixed {
+    background-color: bisque;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+#sticky {
+    background-color:azure;
+    position: sticky;
+    top: 0px;
+}

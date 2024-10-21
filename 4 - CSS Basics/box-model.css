@@ -1,0 +1,46 @@
+.box1 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.box2 {
+    padding: 20px;
+    /* Clockwise Rotation */
+    /* 1 value = all sides */
+    /* 2 values = top/bottom, left/right*/
+    /* 3 values = top, right/left, bottom*/
+    /* Values 4 = top, right, bottom, left */
+}
+
+/* Margin - Refers to the space outside of the box */
+.box3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.box4 {
+    margin: 20px;
+}
+
+.mix-borders {
+    background-color: aqua;
+    height: 100px;
+    width: 200px;
+    border-style: solid ridge dotted dashed;
+    border-width: 4px;
+    border-color: bisque tomato black red;
+    border: dashed pink;     
+}
+
+.circle-container {
+    background-color: pink;
+    height: 100px;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center ;
+    color: red;
+}
